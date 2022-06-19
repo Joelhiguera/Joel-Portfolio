@@ -1,32 +1,50 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+     box-sizing: border-box;
 }
+
+
 
 body {
-    background-color: rgb(233, 243, 243);
+    background-color: rgb(165, 200, 200);
+    font-family:'Arial';
+    display: flex;
+    flex-direction: column;
 }
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: rgb(15, 86, 86);
-    /* background-image: url('design.jpeg'); */
-}
+    padding: 1%;
+    /* use CSS var() function to reference a variable created above */
+    background-color: rgb(140, 140, 146);
+    color: rgb(172, 201, 181);
+    height: 150px;
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 400px;
-    font-size: 20px;
     
 }
 
+#headerImg {
+    height: 300px;
+}
+
+
+
+#joel {
+    height: 150px;
+}
+
 nav a {
-    color: #e8a87c;
-    font-weight: bold;
-    text-decoration: none;
+    color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+a:hover {
+    background-color: yellowgreen;
 }
 
 
