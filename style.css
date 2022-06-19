@@ -9,7 +9,10 @@ body {
     font-family:'Arial';
     display: flex;
     flex-direction: column;
+    font-size: large;
 }
+
+
 
 header {
     display: flex;
@@ -17,11 +20,14 @@ header {
     align-items: center;
     padding: 1%;
     /* use CSS var() function to reference a variable created above */
-    background-color: rgb(140, 140, 146);
+    background-color: rgb(129, 169, 154);
     color: rgb(172, 201, 181);
     height: 150px;
+}
 
-    
+section img {
+    height: 200px;
+    width: 400px
 }
 
 #headerImg {
@@ -50,4 +56,22 @@ a:hover {
 
 h1 {
     font-size: 200%;
+    color:#3e4f82
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1%;
+    /* use CSS var() function to reference a variable created above */
+    background-color: rgb(129, 169, 154);
+    color: rgb(172, 201, 181);
+    height: 150px;
+    
+    
+}
+
+footer a {
+    margin-right: 30px;
 }
