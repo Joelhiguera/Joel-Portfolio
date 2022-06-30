@@ -13,32 +13,68 @@ body {
 }
 
 
-
+/* header styling properties */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    /* use CSS var() function to reference a variable created above */
     background-color: rgb(129, 169, 154);
     color: rgb(172, 201, 181);
     height: 160px;
     border: 5px solid #3e4f82;
 }
 
+/* programming banner under the nav bar */
+#headerImg {
+    height: 300px;
+    border-bottom:  5px solid #3e4f82;
+    border-right: 5px solid #3e4f82;
+    border-left: 5px solid #3e4f82;
+}
+
+/* nav links styling properties */
+nav a {
+    color: #3e4f82;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+/* picture of Joel in the navbar */
+#joel {
+    height: 150px;
+}
+
+/* link hover styling */
+a:hover {
+    color: yellowgreen;
+}
 
 
+/* about and work sections styling  */
+#about, #work {
+    border-bottom: 5px solid #3e4f82;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+
+/* H1 styling for the whole page */
+h1 {
+    font-size: 200%;
+    color:#3e4f82
+}
 
 
-
-
-
-
+/* this section is to adjust the size of the pictures in the "work area" */
 #Img1 {
     height: 600px;
     width: 807px;
     
-   
 }
 
 
@@ -53,62 +89,7 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#headerImg {
-    height: 300px;
-    border-bottom:  5px solid #3e4f82;
-    border-right: 5px solid #3e4f82;
-    border-left: 5px solid #3e4f82;
-}
-
-
-#about, #work {
-    border-bottom: 5px solid #3e4f82;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-
-}
-
-
-
-
-
-#joel {
-    height: 150px;
-}
-
-nav a {
-    color: #3e4f82;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 30px;
-  
-}
-
-a:hover {
-    color: yellowgreen;
-}
-
-
-h1 {
-    font-size: 200%;
-    color:#3e4f82
-}
-
+/* Footer styling */
 footer {
     display: flex;
     justify-content:center;
